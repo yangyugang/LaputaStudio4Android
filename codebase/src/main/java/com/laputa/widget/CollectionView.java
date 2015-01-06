@@ -18,7 +18,6 @@ package com.laputa.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.v4.app.ListFragment;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.util.SparseArray;
@@ -30,6 +29,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import com.laputa.R;
+import com.laputa.fragment.ListFragment;
 import com.laputa.util.Lists;
 import java.util.ArrayList;
 import java.util.HashSet;

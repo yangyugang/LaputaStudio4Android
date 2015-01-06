@@ -35,7 +35,7 @@ public abstract class BaseCollectionFragment<T> extends CollectionFragment
 
   @Override public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    mDataLoader = new DataLoader<T>(this, this, this);
+    mDataLoader = new DataLoader<>(this, this, this);
   }
 
   @Override public void onActivityCreated(@Nullable Bundle savedInstanceState) {
